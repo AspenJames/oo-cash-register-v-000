@@ -12,5 +12,6 @@ class CashRegister
 
   def apply_discount
     self.total -= discount if !discount.nil?
-    
+
+  end
 end
